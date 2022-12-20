@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: auto;
+    width: 100%;
+    max-width: 1900px;
+    background-color: #f7f7f7;
+    border: 1px solid rgb(212, 212, 212);
+
+}
+
+header{
+    width: 100%;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 250px;
+}
+.portflow-icone{
+    width: 125px;
+}
+ul{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    width: 70px;
+    text-align: center;
+}
+li:hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+.titulo-header{
+    width: 100%;
+    height: 700px;
+    background-image: url("imagens/laranja\ azul\ recorte.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titulo{
+    height: 600px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.imagens-main{
+    margin: 70px 300px 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.imagens-main figure{
+    width: 300px;
+    height: 300px;
+
+    
+}
+.imagens-main img{
+    width: 285px;
+    
+
+}
+.imagens-main img:hover{
+    animation: imagemMain 0.25s linear forwards;
+    cursor: pointer;
+}
+.corbranca-image{
+    background-color: white;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.direitos-autorais{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+}
+.redes-sociais img:hover{
+    cursor: pointer;
+}
+h4{
+    font-size: 18px;
+    width: 120px;
+
+}
+p{
+    font-size: 11px;
+    width: 430px;
+
+}
